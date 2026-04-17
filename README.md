@@ -35,14 +35,20 @@ O mapa é uma dungeon com salas ligadas por corredores. Quando o jogador entra n
 - Squared (Quadrado) — inimigo base. Lento, alta vida, dispara uma bala pesada em direção ao jogador.
 - Triangle (Triângulo) — inimigo base. Muito rápido, pouca vida. Persegue o jogador diretamente.
 
+**Miniboss**
+
+- Plus (+) — forma em cruz. Stats moderados, move-se lentamente, dispara nas 4 direções cardeais em simultâneo.
+  
 **Bosses**
 
-- Pentagon — stats moderados, move-se lentamente, dispara em padrão fixo (3 direções).
-- Hexagon — muita vida, dispara várias balas em todas as direções.
+- Pentagon — muita vida, move-se lentamente, dispara em padrão rotativo fixo. Encontrado no fim do Andar 2.
 
 ## Estrutura da Dungeon
 
-A dungeon tem 3 andares. A dificuldade aumenta a cada andar: mais inimigos por sala, maior velocidade, maior dano.
+- Andar 1 — 3 salas de combate + miniboss Plus (+).
+- Andar 2 — 3 salas de combate + boss final Pentagon.
+  
+A dificuldade aumenta a cada andar: mais inimigos por sala, maior velocidade, maior dano.
 
 ## Upgrades
 
